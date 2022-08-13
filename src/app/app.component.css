@@ -1,0 +1,68 @@
+.container {
+    width: 5em;
+    padding: 2em;
+    background-color:#313A49 ;
+    margin: 35vh auto;
+    text-align: center;
+    min-height: 15em;
+    min-width: 25em;
+    border-radius: 1em;
+    position: relative;
+    box-shadow: 2px 2px #393d46;
+}
+.advice-box {
+    display: flex;
+    min-height: 150px;
+    max-height: 150px;
+    justify-items: center;
+
+}
+.advice-box p {
+    margin: 0 auto;
+    margin-top: 15px;
+    align-self: center;
+    font-size: 1.5em;
+}
+.lines {
+    display: flex;
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+}
+hr {
+    align-self: flex-end;
+    width: 10em;
+    height: 1px;
+    border: 1px solid #3C4554;
+}
+.vertical-line {
+    border-left: 4px solid #D0DEEB;
+    border-radius: 0.2em;
+    width: 5px;
+    border-right: 4px solid #D0DEEB;
+}
+
+.btn-advice {
+    background-color: rgb(87, 255, 169);
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    left: 47%;
+    bottom: -7%;
+    position: absolute;
+   
+}
+
+i {
+     align-items: center;
+     align-self: center;
+     cursor: pointer;
+}
+
+small {
+    color: rgb(87, 255, 169);
+}
+

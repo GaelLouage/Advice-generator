@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #202632;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span:first-of-type {
+    background-color: rgb(87, 255, 169);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+p {
+    color:white;
+}

@@ -1,0 +1,21 @@
+
+<div class="container">
+  <p><small>ADVICE&emsp;# {{slipAdvice.slip.id}}</small></p>
+  <div class="advice-box">
+    <!--  &emsp; gap (spaces) -->
+    
+    <p>"&nbsp;{{slipAdvice.slip.advice}}&nbsp;"</p>
+    <div class="lines">
+       <hr>
+       <div class="vertical-line"></div>
+       <hr>
+    </div>
+  </div>
+ 
+    <div class="btn-advice">
+       <app-square (click)="changeAdvice()"  svg="../assets/images/icon-dice.svg"></app-square>
+       
+    </div>
+
+</div>
+
